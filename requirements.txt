@@ -1,0 +1,33 @@
+# Simulation Core
+mujoco
+setuptools
+wheel
+
+# DRL + Robotics Ecosystem
+gymnasium
+stable-baselines3
+pettingzoo
+supersuit
+moviepy
+pygame
+pyyaml
+Cython
+
+# Core ML stack
+torch
+torchvision
+torchaudio
+transformers
+datasets
+accelerate
+peft
+trl
+sentence-transformers
+nltk
+openai
+
+# AWS & Debugging
+boto3
+numpy
+scipy
+tqdm
