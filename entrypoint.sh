@@ -1,6 +1,14 @@
 #!/usr/bin/env bash
 set -eux
 
+# Source ROS 2 when installed (for state manager, controller nodes, simulation)
+# Temporarily allow unset vars so ROS setup.bash (which uses AMENT_TRACE_SETUP_FILES etc.) does not trigger set -u
+if [ -f /opt/ros/humble/setup.bash ]; then
+    set +u
+    source /opt/ros/humble/setup.bash
+    set -u
+fi
+
 # Use host UID:GID to avoid permission issues with mounted volumes
 USER_ID=${LOCAL_UID:-9001}
 GROUP_ID=${LOCAL_GID:-9001}
