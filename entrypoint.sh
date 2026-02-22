@@ -30,5 +30,10 @@ if ! id -u "$USERNAME" >/dev/null 2>&1; then
     useradd -m -u "$USER_ID" -g "$GROUP_ID" -s /bin/bash "$USERNAME"
 fi
 
+# Ensure dev user owns /workspace so colcon build, pip, etc. work without sudo
+if [ -d /workspace ]; then
+    chown -R "${USER_ID}:${GROUP_ID}" /workspace
+fi
+
 # Drop privileges and execute the command
 exec gosu "$USERNAME" "$@"

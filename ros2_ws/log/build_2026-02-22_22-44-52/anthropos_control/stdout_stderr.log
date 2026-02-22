@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/anthropos_control/anthropos_control.egg-info
+writing ../../build/anthropos_control/anthropos_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/anthropos_control/anthropos_control.egg-info/dependency_links.txt
+writing entry points to ../../build/anthropos_control/anthropos_control.egg-info/entry_points.txt
+writing requirements to ../../build/anthropos_control/anthropos_control.egg-info/requires.txt
+writing top-level names to ../../build/anthropos_control/anthropos_control.egg-info/top_level.txt
+writing manifest file '../../build/anthropos_control/anthropos_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/anthropos_control/anthropos_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/anthropos_control/anthropos_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspace/ros2_ws/build/anthropos_control/build
+creating /workspace/ros2_ws/build/anthropos_control/build/lib
+creating /workspace/ros2_ws/build/anthropos_control/build/lib/anthropos_control
+copying anthropos_control/state_manager_node.py -> /workspace/ros2_ws/build/anthropos_control/build/lib/anthropos_control
+copying anthropos_control/__init__.py -> /workspace/ros2_ws/build/anthropos_control/build/lib/anthropos_control
+copying anthropos_control/controller_node.py -> /workspace/ros2_ws/build/anthropos_control/build/lib/anthropos_control
+running install
+running install_lib
+creating /workspace/ros2_ws/install/anthropos_control/lib/python3.10/site-packages/anthropos_control
+copying /workspace/ros2_ws/build/anthropos_control/build/lib/anthropos_control/state_manager_node.py -> /workspace/ros2_ws/install/anthropos_control/lib/python3.10/site-packages/anthropos_control
+copying /workspace/ros2_ws/build/anthropos_control/build/lib/anthropos_control/__init__.py -> /workspace/ros2_ws/install/anthropos_control/lib/python3.10/site-packages/anthropos_control
+copying /workspace/ros2_ws/build/anthropos_control/build/lib/anthropos_control/controller_node.py -> /workspace/ros2_ws/install/anthropos_control/lib/python3.10/site-packages/anthropos_control
+byte-compiling /workspace/ros2_ws/install/anthropos_control/lib/python3.10/site-packages/anthropos_control/state_manager_node.py to state_manager_node.cpython-310.pyc
+byte-compiling /workspace/ros2_ws/install/anthropos_control/lib/python3.10/site-packages/anthropos_control/__init__.py to __init__.cpython-310.pyc
+byte-compiling /workspace/ros2_ws/install/anthropos_control/lib/python3.10/site-packages/anthropos_control/controller_node.py to controller_node.cpython-310.pyc
+running install_data
+creating /workspace/ros2_ws/install/anthropos_control/share
+creating /workspace/ros2_ws/install/anthropos_control/share/ament_index
+creating /workspace/ros2_ws/install/anthropos_control/share/ament_index/resource_index
+creating /workspace/ros2_ws/install/anthropos_control/share/ament_index/resource_index/packages
+copying resource/anthropos_control -> /workspace/ros2_ws/install/anthropos_control/share/ament_index/resource_index/packages
+creating /workspace/ros2_ws/install/anthropos_control/share/anthropos_control
+copying package.xml -> /workspace/ros2_ws/install/anthropos_control/share/anthropos_control
+running install_egg_info
+Copying ../../build/anthropos_control/anthropos_control.egg-info to /workspace/ros2_ws/install/anthropos_control/lib/python3.10/site-packages/anthropos_control-0.1.0-py3.10.egg-info
+running install_scripts
+Installing controller script to /workspace/ros2_ws/install/anthropos_control/lib/anthropos_control
+Installing state_manager script to /workspace/ros2_ws/install/anthropos_control/lib/anthropos_control
+writing list of installed files to '/workspace/ros2_ws/build/anthropos_control/install.log'

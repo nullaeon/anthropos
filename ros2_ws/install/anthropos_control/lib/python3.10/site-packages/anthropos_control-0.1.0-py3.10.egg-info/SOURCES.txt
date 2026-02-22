@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/anthropos_control/anthropos_control.egg-info/PKG-INFO
+../../build/anthropos_control/anthropos_control.egg-info/SOURCES.txt
+../../build/anthropos_control/anthropos_control.egg-info/dependency_links.txt
+../../build/anthropos_control/anthropos_control.egg-info/entry_points.txt
+../../build/anthropos_control/anthropos_control.egg-info/requires.txt
+../../build/anthropos_control/anthropos_control.egg-info/top_level.txt
+../../build/anthropos_control/anthropos_control.egg-info/zip-safe
+anthropos_control/__init__.py
+anthropos_control/controller_node.py
+anthropos_control/injector_node.py
+anthropos_control/state_manager_node.py
+launch/harness.launch.py
+resource/anthropos_control

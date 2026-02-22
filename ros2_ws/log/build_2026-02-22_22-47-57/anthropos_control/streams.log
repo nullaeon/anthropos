@@ -1,0 +1,23 @@
+[0.644s] Invoking command in '/workspace/ros2_ws/src/anthropos_control': PYTHONPATH=/workspace/ros2_ws/build/anthropos_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/anthropos_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/anthropos_control build --build-base /workspace/ros2_ws/build/anthropos_control/build install --record /workspace/ros2_ws/build/anthropos_control/install.log --single-version-externally-managed install_data
+[0.880s] running egg_info
+[0.880s] writing ../../build/anthropos_control/anthropos_control.egg-info/PKG-INFO
+[0.881s] writing dependency_links to ../../build/anthropos_control/anthropos_control.egg-info/dependency_links.txt
+[0.881s] writing entry points to ../../build/anthropos_control/anthropos_control.egg-info/entry_points.txt
+[0.881s] writing requirements to ../../build/anthropos_control/anthropos_control.egg-info/requires.txt
+[0.881s] writing top-level names to ../../build/anthropos_control/anthropos_control.egg-info/top_level.txt
+[0.883s] reading manifest file '../../build/anthropos_control/anthropos_control.egg-info/SOURCES.txt'
+[0.884s] writing manifest file '../../build/anthropos_control/anthropos_control.egg-info/SOURCES.txt'
+[0.884s] running build
+[0.884s] running build_py
+[0.884s] running install
+[0.884s] running install_lib
+[0.886s] running install_data
+[0.886s] copying package.xml -> /workspace/ros2_ws/install/anthropos_control/share/anthropos_control
+[0.886s] running install_egg_info
+[0.888s] removing '/workspace/ros2_ws/install/anthropos_control/lib/python3.10/site-packages/anthropos_control-0.1.0-py3.10.egg-info' (and everything under it)
+[0.888s] Copying ../../build/anthropos_control/anthropos_control.egg-info to /workspace/ros2_ws/install/anthropos_control/lib/python3.10/site-packages/anthropos_control-0.1.0-py3.10.egg-info
+[0.889s] running install_scripts
+[0.911s] Installing controller script to /workspace/ros2_ws/install/anthropos_control/lib/anthropos_control
+[0.911s] Installing state_manager script to /workspace/ros2_ws/install/anthropos_control/lib/anthropos_control
+[0.911s] writing list of installed files to '/workspace/ros2_ws/build/anthropos_control/install.log'
+[0.939s] Invoked command in '/workspace/ros2_ws/src/anthropos_control' returned '0': PYTHONPATH=/workspace/ros2_ws/build/anthropos_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/anthropos_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/anthropos_control build --build-base /workspace/ros2_ws/build/anthropos_control/build install --record /workspace/ros2_ws/build/anthropos_control/install.log --single-version-externally-managed install_data

@@ -1,0 +1,44 @@
+[0.000000] (-) TimerEvent: {}
+[0.000323] (anthropos_control) JobQueued: {'identifier': 'anthropos_control', 'dependencies': OrderedDict()}
+[0.000611] (anthropos_control) JobStarted: {'identifier': 'anthropos_control'}
+[0.099532] (-) TimerEvent: {}
+[0.199940] (-) TimerEvent: {}
+[0.300162] (-) TimerEvent: {}
+[0.400399] (-) TimerEvent: {}
+[0.500675] (-) TimerEvent: {}
+[0.600944] (-) TimerEvent: {}
+[0.701179] (-) TimerEvent: {}
+[0.702122] (anthropos_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/anthropos_control', 'build', '--build-base', '/workspace/ros2_ws/build/anthropos_control/build', 'install', '--record', '/workspace/ros2_ws/build/anthropos_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspace/ros2_ws/src/anthropos_control', 'env': {'HOSTNAME': '685cf61a2758', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/mujoco/lib', 'HOME': '/root', 'OLDPWD': '/workspace', 'ROS_PYTHON_VERSION': '3', 'LOCAL_GID': '0', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PYTORCH_CUDA_ALLOC_CONF': 'max_split_size_mb:128', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/bin:/usr/local/mujoco/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':99', 'MUJOCO_GL': 'egl', 'LANG': 'en_US.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'LOCAL_UID': '0', 'PWD': '/workspace/ros2_ws/build/anthropos_control', 'PYTHONPATH': '/workspace/ros2_ws/build/anthropos_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/anthropos_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.801338] (-) TimerEvent: {}
+[0.901599] (-) TimerEvent: {}
+[0.938632] (anthropos_control) StdoutLine: {'line': b'running egg_info\n'}
+[0.939115] (anthropos_control) StdoutLine: {'line': b'writing ../../build/anthropos_control/anthropos_control.egg-info/PKG-INFO\n'}
+[0.939473] (anthropos_control) StdoutLine: {'line': b'writing dependency_links to ../../build/anthropos_control/anthropos_control.egg-info/dependency_links.txt\n'}
+[0.939871] (anthropos_control) StdoutLine: {'line': b'writing entry points to ../../build/anthropos_control/anthropos_control.egg-info/entry_points.txt\n'}
+[0.939991] (anthropos_control) StdoutLine: {'line': b'writing requirements to ../../build/anthropos_control/anthropos_control.egg-info/requires.txt\n'}
+[0.940097] (anthropos_control) StdoutLine: {'line': b'writing top-level names to ../../build/anthropos_control/anthropos_control.egg-info/top_level.txt\n'}
+[0.941261] (anthropos_control) StdoutLine: {'line': b"reading manifest file '../../build/anthropos_control/anthropos_control.egg-info/SOURCES.txt'\n"}
+[0.942246] (anthropos_control) StdoutLine: {'line': b"writing manifest file '../../build/anthropos_control/anthropos_control.egg-info/SOURCES.txt'\n"}
+[0.942421] (anthropos_control) StdoutLine: {'line': b'running build\n'}
+[0.942680] (anthropos_control) StdoutLine: {'line': b'running build_py\n'}
+[0.942811] (anthropos_control) StdoutLine: {'line': b'copying anthropos_control/injector_node.py -> /workspace/ros2_ws/build/anthropos_control/build/lib/anthropos_control\n'}
+[0.943082] (anthropos_control) StdoutLine: {'line': b'running install\n'}
+[0.943214] (anthropos_control) StdoutLine: {'line': b'running install_lib\n'}
+[0.944037] (anthropos_control) StdoutLine: {'line': b'copying /workspace/ros2_ws/build/anthropos_control/build/lib/anthropos_control/injector_node.py -> /workspace/ros2_ws/install/anthropos_control/lib/python3.10/site-packages/anthropos_control\n'}
+[0.944646] (anthropos_control) StdoutLine: {'line': b'byte-compiling /workspace/ros2_ws/install/anthropos_control/lib/python3.10/site-packages/anthropos_control/injector_node.py to injector_node.cpython-310.pyc\n'}
+[0.945195] (anthropos_control) StdoutLine: {'line': b'running install_data\n'}
+[0.945526] (anthropos_control) StdoutLine: {'line': b'copying package.xml -> /workspace/ros2_ws/install/anthropos_control/share/anthropos_control\n'}
+[0.945987] (anthropos_control) StdoutLine: {'line': b'creating /workspace/ros2_ws/install/anthropos_control/share/anthropos_control/launch\n'}
+[0.946194] (anthropos_control) StdoutLine: {'line': b'copying launch/harness.launch.py -> /workspace/ros2_ws/install/anthropos_control/share/anthropos_control/launch\n'}
+[0.946343] (anthropos_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.947737] (anthropos_control) StdoutLine: {'line': b"removing '/workspace/ros2_ws/install/anthropos_control/lib/python3.10/site-packages/anthropos_control-0.1.0-py3.10.egg-info' (and everything under it)\n"}
+[0.948137] (anthropos_control) StdoutLine: {'line': b'Copying ../../build/anthropos_control/anthropos_control.egg-info to /workspace/ros2_ws/install/anthropos_control/lib/python3.10/site-packages/anthropos_control-0.1.0-py3.10.egg-info\n'}
+[0.949453] (anthropos_control) StdoutLine: {'line': b'running install_scripts\n'}
+[0.970127] (anthropos_control) StdoutLine: {'line': b'Installing controller script to /workspace/ros2_ws/install/anthropos_control/lib/anthropos_control\n'}
+[0.970781] (anthropos_control) StdoutLine: {'line': b'Installing injector script to /workspace/ros2_ws/install/anthropos_control/lib/anthropos_control\n'}
+[0.970973] (anthropos_control) StdoutLine: {'line': b'Installing state_manager script to /workspace/ros2_ws/install/anthropos_control/lib/anthropos_control\n'}
+[0.971096] (anthropos_control) StdoutLine: {'line': b"writing list of installed files to '/workspace/ros2_ws/build/anthropos_control/install.log'\n"}
+[0.997822] (anthropos_control) CommandEnded: {'returncode': 0}
+[1.001825] (-) TimerEvent: {}
+[1.016782] (anthropos_control) JobEnded: {'identifier': 'anthropos_control', 'rc': 0}
+[1.017955] (-) EventReactorShutdown: {}

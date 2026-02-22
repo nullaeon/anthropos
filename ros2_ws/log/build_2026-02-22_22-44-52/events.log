@@ -1,0 +1,57 @@
+[0.000000] (-) TimerEvent: {}
+[0.000135] (anthropos_control) JobQueued: {'identifier': 'anthropos_control', 'dependencies': OrderedDict()}
+[0.000179] (anthropos_control) JobStarted: {'identifier': 'anthropos_control'}
+[0.099249] (-) TimerEvent: {}
+[0.199490] (-) TimerEvent: {}
+[0.299752] (-) TimerEvent: {}
+[0.400016] (-) TimerEvent: {}
+[0.500250] (-) TimerEvent: {}
+[0.600491] (-) TimerEvent: {}
+[0.665354] (anthropos_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/anthropos_control', 'build', '--build-base', '/workspace/ros2_ws/build/anthropos_control/build', 'install', '--record', '/workspace/ros2_ws/build/anthropos_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspace/ros2_ws/src/anthropos_control', 'env': {'HOSTNAME': 'e6a42dcc56cc', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/mujoco/lib', 'HOME': '/root', 'OLDPWD': '/workspace', 'ROS_PYTHON_VERSION': '3', 'LOCAL_GID': '0', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PYTORCH_CUDA_ALLOC_CONF': 'max_split_size_mb:128', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/bin:/usr/local/mujoco/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':99', 'MUJOCO_GL': 'egl', 'LANG': 'en_US.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'LOCAL_UID': '0', 'PWD': '/workspace/ros2_ws/build/anthropos_control', 'PYTHONPATH': '/workspace/ros2_ws/build/anthropos_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/anthropos_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.700649] (-) TimerEvent: {}
+[0.800888] (-) TimerEvent: {}
+[0.901137] (-) TimerEvent: {}
+[0.902051] (anthropos_control) StdoutLine: {'line': b'running egg_info\n'}
+[0.902409] (anthropos_control) StdoutLine: {'line': b'creating ../../build/anthropos_control/anthropos_control.egg-info\n'}
+[0.902734] (anthropos_control) StdoutLine: {'line': b'writing ../../build/anthropos_control/anthropos_control.egg-info/PKG-INFO\n'}
+[0.902869] (anthropos_control) StdoutLine: {'line': b'writing dependency_links to ../../build/anthropos_control/anthropos_control.egg-info/dependency_links.txt\n'}
+[0.903158] (anthropos_control) StdoutLine: {'line': b'writing entry points to ../../build/anthropos_control/anthropos_control.egg-info/entry_points.txt\n'}
+[0.903281] (anthropos_control) StdoutLine: {'line': b'writing requirements to ../../build/anthropos_control/anthropos_control.egg-info/requires.txt\n'}
+[0.903400] (anthropos_control) StdoutLine: {'line': b'writing top-level names to ../../build/anthropos_control/anthropos_control.egg-info/top_level.txt\n'}
+[0.903503] (anthropos_control) StdoutLine: {'line': b"writing manifest file '../../build/anthropos_control/anthropos_control.egg-info/SOURCES.txt'\n"}
+[0.904815] (anthropos_control) StdoutLine: {'line': b"reading manifest file '../../build/anthropos_control/anthropos_control.egg-info/SOURCES.txt'\n"}
+[0.905500] (anthropos_control) StdoutLine: {'line': b"writing manifest file '../../build/anthropos_control/anthropos_control.egg-info/SOURCES.txt'\n"}
+[0.905903] (anthropos_control) StdoutLine: {'line': b'running build\n'}
+[0.906167] (anthropos_control) StdoutLine: {'line': b'running build_py\n'}
+[0.906362] (anthropos_control) StdoutLine: {'line': b'creating /workspace/ros2_ws/build/anthropos_control/build\n'}
+[0.906472] (anthropos_control) StdoutLine: {'line': b'creating /workspace/ros2_ws/build/anthropos_control/build/lib\n'}
+[0.906578] (anthropos_control) StdoutLine: {'line': b'creating /workspace/ros2_ws/build/anthropos_control/build/lib/anthropos_control\n'}
+[0.906706] (anthropos_control) StdoutLine: {'line': b'copying anthropos_control/state_manager_node.py -> /workspace/ros2_ws/build/anthropos_control/build/lib/anthropos_control\n'}
+[0.906964] (anthropos_control) StdoutLine: {'line': b'copying anthropos_control/__init__.py -> /workspace/ros2_ws/build/anthropos_control/build/lib/anthropos_control\n'}
+[0.907063] (anthropos_control) StdoutLine: {'line': b'copying anthropos_control/controller_node.py -> /workspace/ros2_ws/build/anthropos_control/build/lib/anthropos_control\n'}
+[0.907159] (anthropos_control) StdoutLine: {'line': b'running install\n'}
+[0.907255] (anthropos_control) StdoutLine: {'line': b'running install_lib\n'}
+[0.907581] (anthropos_control) StdoutLine: {'line': b'creating /workspace/ros2_ws/install/anthropos_control/lib/python3.10/site-packages/anthropos_control\n'}
+[0.907872] (anthropos_control) StdoutLine: {'line': b'copying /workspace/ros2_ws/build/anthropos_control/build/lib/anthropos_control/state_manager_node.py -> /workspace/ros2_ws/install/anthropos_control/lib/python3.10/site-packages/anthropos_control\n'}
+[0.907999] (anthropos_control) StdoutLine: {'line': b'copying /workspace/ros2_ws/build/anthropos_control/build/lib/anthropos_control/__init__.py -> /workspace/ros2_ws/install/anthropos_control/lib/python3.10/site-packages/anthropos_control\n'}
+[0.908200] (anthropos_control) StdoutLine: {'line': b'copying /workspace/ros2_ws/build/anthropos_control/build/lib/anthropos_control/controller_node.py -> /workspace/ros2_ws/install/anthropos_control/lib/python3.10/site-packages/anthropos_control\n'}
+[0.908442] (anthropos_control) StdoutLine: {'line': b'byte-compiling /workspace/ros2_ws/install/anthropos_control/lib/python3.10/site-packages/anthropos_control/state_manager_node.py to state_manager_node.cpython-310.pyc\n'}
+[0.909117] (anthropos_control) StdoutLine: {'line': b'byte-compiling /workspace/ros2_ws/install/anthropos_control/lib/python3.10/site-packages/anthropos_control/__init__.py to __init__.cpython-310.pyc\n'}
+[0.909315] (anthropos_control) StdoutLine: {'line': b'byte-compiling /workspace/ros2_ws/install/anthropos_control/lib/python3.10/site-packages/anthropos_control/controller_node.py to controller_node.cpython-310.pyc\n'}
+[0.909822] (anthropos_control) StdoutLine: {'line': b'running install_data\n'}
+[0.910140] (anthropos_control) StdoutLine: {'line': b'creating /workspace/ros2_ws/install/anthropos_control/share\n'}
+[0.910369] (anthropos_control) StdoutLine: {'line': b'creating /workspace/ros2_ws/install/anthropos_control/share/ament_index\n'}
+[0.910485] (anthropos_control) StdoutLine: {'line': b'creating /workspace/ros2_ws/install/anthropos_control/share/ament_index/resource_index\n'}
+[0.910590] (anthropos_control) StdoutLine: {'line': b'creating /workspace/ros2_ws/install/anthropos_control/share/ament_index/resource_index/packages\n'}
+[0.910713] (anthropos_control) StdoutLine: {'line': b'copying resource/anthropos_control -> /workspace/ros2_ws/install/anthropos_control/share/ament_index/resource_index/packages\n'}
+[0.910818] (anthropos_control) StdoutLine: {'line': b'creating /workspace/ros2_ws/install/anthropos_control/share/anthropos_control\n'}
+[0.911011] (anthropos_control) StdoutLine: {'line': b'copying package.xml -> /workspace/ros2_ws/install/anthropos_control/share/anthropos_control\n'}
+[0.911117] (anthropos_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.912249] (anthropos_control) StdoutLine: {'line': b'Copying ../../build/anthropos_control/anthropos_control.egg-info to /workspace/ros2_ws/install/anthropos_control/lib/python3.10/site-packages/anthropos_control-0.1.0-py3.10.egg-info\n'}
+[0.913393] (anthropos_control) StdoutLine: {'line': b'running install_scripts\n'}
+[0.934699] (anthropos_control) StdoutLine: {'line': b'Installing controller script to /workspace/ros2_ws/install/anthropos_control/lib/anthropos_control\n'}
+[0.934919] (anthropos_control) StdoutLine: {'line': b'Installing state_manager script to /workspace/ros2_ws/install/anthropos_control/lib/anthropos_control\n'}
+[0.935136] (anthropos_control) StdoutLine: {'line': b"writing list of installed files to '/workspace/ros2_ws/build/anthropos_control/install.log'\n"}
+[0.961961] (anthropos_control) CommandEnded: {'returncode': 0}
+[0.980089] (anthropos_control) JobEnded: {'identifier': 'anthropos_control', 'rc': 0}
+[0.980895] (-) EventReactorShutdown: {}

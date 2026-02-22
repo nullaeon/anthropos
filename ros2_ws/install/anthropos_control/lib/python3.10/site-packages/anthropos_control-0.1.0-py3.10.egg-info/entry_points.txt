@@ -1,0 +1,5 @@
+[console_scripts]
+controller = anthropos_control.controller_node:main
+injector = anthropos_control.injector_node:main
+state_manager = anthropos_control.state_manager_node:main
+
